@@ -15,8 +15,8 @@ while : ; do
 
     # De acordo com a opção escolhida, dispara programas
     case "$resposta" in
-         1) ~/agenda-shell/cadastro-contato.sh ;;
-         2) ~/agenda-shell/lista.sh ;;
+         1) ~/simple-phonebook/cadastro-contato.sh ;;
+         2) ~/simple-phonebook/lista.sh ;;
          0) break ;;
     esac
 

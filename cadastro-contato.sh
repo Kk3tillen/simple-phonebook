@@ -9,6 +9,6 @@ telefone=$(dialog --inputbox "telefone:" 10 40 3>&1 1>&2 2>&3)
 # Exibe os dados inseridos
 dialog --title "Informações inseridas" --msgbox "Nome: $nome\nTelefone: $telefone" 12 30
 
-echo "$nome $telefone" >> ~/agenda-shell/contatos.txt
+echo "$nome $telefone" >> ~/simple-phonebook/contatos.txt
 
-~/agenda-shell/menu.sh
+~/simple-phonebook/menu.sh

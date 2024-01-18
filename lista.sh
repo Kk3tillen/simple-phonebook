@@ -1,2 +1,2 @@
-dialog --textbox "~/agenda-shell/contatos.txt" 20 60
+dialog --textbox "~/simple-phonebook/contatos.txt" 20 60
 
