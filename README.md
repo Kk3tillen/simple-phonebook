@@ -1,4 +1,4 @@
-*clone o projeto
+* clone o projeto
 
 * Instalar o pacote dialog para a criação das interfaces:\
 ``sudo apt-get install dialog``
