@@ -1,3 +1,4 @@
+#!/bin/bash
 
 while : ; do
 
@@ -10,13 +11,12 @@ while : ; do
             2 'listar contatos'  \
             0 'Sair'                )
 
-    # Ela apertou CANCELAR ou ESC, então vamos sair...
+   
     [ $? -ne 0 ] && break
 
-    # De acordo com a opção escolhida, dispara programas
     case "$resposta" in
          1) ~/simple-phonebook/cadastro-contato.sh ;;
-         2) ~/simple-phonebook/lista.sh ;;
+         2) dialog --textbox ~/simple-phonebook/testList.sh 20 40 ;;
          0) break ;;
     esac
 
