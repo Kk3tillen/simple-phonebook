@@ -4,5 +4,5 @@
 * Adicionar permição de execução em todos os arquivos:\
 ``chmod +x *.sh``
 
-depois é só executar no terminal :)
+depois é só executar no terminal :)\
 ``~/simple-phonebook/menu.sh``
