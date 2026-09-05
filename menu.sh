@@ -1,4 +1,5 @@
 #!/bin/bash
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 while : ; do
 
@@ -15,8 +16,8 @@ while : ; do
     [ $? -ne 0 ] && break
 
     case "$resposta" in
-         1) ~/simple-phonebook/cadastro-contato.sh ;;
-         2) dialog --textbox ~/simple-phonebook/testList.sh 20 40 ;;
+         1) "$DIR/cadastro-contato.sh" ;;
+         2) dialog --textbox "$DIR/testList.sh" 20 40 ;;
          0) break ;;
     esac
 
